@@ -1,11 +1,13 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aquiiiii
+function compareTrue(carro,casa) {
+  if (carro && casa) {
+    return true;
+  }
+  return false;
 }
 
 // Desafio 2
 function calcArea() {
-  // seu código aqui
 }
 
 // Desafio 3
