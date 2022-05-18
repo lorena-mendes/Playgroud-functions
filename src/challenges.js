@@ -7,7 +7,8 @@ function compareTrue(carro,casa) {
 }
 
 // Desafio 2
-function calcArea() {
+function calcArea(area,height) {
+  return (area*height)/2;
 }
 
 // Desafio 3
