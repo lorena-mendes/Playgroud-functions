@@ -24,9 +24,10 @@ function concatName(nomes) {
 };
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
-}
+function footballPoints(wins,ties) {
+  let pontuacao = (wins*3) + (ties*1)
+  return pontuacao;
+};
 
 // Desafio 6
 function highestCount() {
